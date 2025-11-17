@@ -8,7 +8,7 @@ class CoreSenseApp:
         self.root = root
         self.root.title("CoreSense - Task & System Monitor")
         self.root.geometry("1200x900")
-        self.root.minsize(1200, 900)
+        self.root.minsize(1400, 910)
 
         self.root.grid_columnconfigure(1, weight=1)
         self.root.grid_rowconfigure(1, weight=1)
@@ -96,7 +96,7 @@ class CoreSenseApp:
         footer.grid(row=2, column=0, columnspan=2, sticky="ew")
         footer_label = ttk.Label(
             footer,
-            text="CoreSense v1.0",
+            text="CoreSense v2.0",
             style='Footer.TLabel'
         )
         footer_label.pack(side='left', padx=10)
